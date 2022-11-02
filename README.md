@@ -5,9 +5,9 @@ Project github ini dibuat untuk memenuhi tugas besar pemprograman web
 Berikut adalah anggota dari kelompok 2:
 
 - Billy Yuriaan 1303204141
-- Naufal Bagas Baihaki Hakim
+- Dewaka Rachmanda Naparo Bangun 1303204014
 - Ida Bagus Peling Prayoga 1303204114
-- Syahreza 
+- Mary Bolung 130320
 
 # Running Dengan Server
 Untuk running dengan server dalam tubes ini kami menggunakan python http.server module
