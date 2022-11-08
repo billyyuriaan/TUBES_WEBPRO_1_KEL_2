@@ -1,3 +1,11 @@
+<?php
+include "../function/loginable.php";
+
+$table = new Functions();
+
+$table->checkLogin();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -48,11 +56,23 @@
             <a class="nav-link active" aria-current="page" href="http://localhost:8000/">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="http://localhost:8000/form/index.html">Form</a>
+            <a class="nav-link" href="http://localhost:8000/form/index.php">Form</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="http://localhost:8000/table/index.html">Table</a>
+            <a class="nav-link" href="http://localhost:8000/table/index.php">Table</a>
           </li>
+          <?php 
+              if(isset($_SESSION['nama'])){
+                echo "<li class='nav-item'>
+                <a class='nav-link' href='http://localhost:8000/auth/logout.php'>Logout</a>
+              </li>";
+              }else{
+                echo "<li class='nav-item'>
+                <a class='nav-link' href='http://localhost:8000/login/index.php'>Login</a>
+              </li>";
+              }
+
+              ?>
       </div>
     </div>
   </nav>

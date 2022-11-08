@@ -1,3 +1,7 @@
+<?php 
+  session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -26,7 +30,7 @@
                 <a class="nav-link" href="http://localhost:8000/table/index.php">Table</a>
               </li>
               <?php 
-              if(isset($_SESSION['name'])){
+              if(isset($_SESSION['nama'])){
                 echo "<li class='nav-item'>
                 <a class='nav-link' href='http://localhost:8000/auth/logout.php'>Logout</a>
               </li>";
