@@ -1,3 +1,14 @@
+<?php
+include "../function/loginable.php";
+
+$table = new Functions();
+
+$table->checkLogin();
+
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
