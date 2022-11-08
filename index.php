@@ -25,6 +25,18 @@
               <li class="nav-item">
                 <a class="nav-link" href="http://localhost:8000/table/index.html">Table</a>
               </li>
+              <?php 
+              if(isset($_SESSION['name'])){
+                echo "<li class='nav-item'>
+                <a class='nav-link' href='http://localhost:8000/auth/logout.php'>Logout</a>
+              </li>";
+              }else{
+                echo "<li class='nav-item'>
+                <a class='nav-link' href='http://localhost:8000/login/index.php'>Login</a>
+              </li>";
+              }
+
+              ?>
           </div>
         </div>
     </nav>
