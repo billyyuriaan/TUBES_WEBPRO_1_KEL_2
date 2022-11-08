@@ -10,10 +10,14 @@ Berikut adalah anggota dari kelompok 2:
 - Mary Bolung 130320
 
 # Running Dengan Server
-Untuk running dengan server dalam tubes ini kami menggunakan python http.server module
+Server dapat di jalankan pada php server tanpa xampp maupun lampp, pertama pastikan php terinstall
 
-untuk menggunakan server tersebut install python terlebih daluhu di [sini](https://www.python.org/downloads/), kemudian jalankan perintah berikut di commad prompt
+> php -v
 
-> server.bat
+jika mengembalikan version dari php maka, dapat melakukan command berikut
+
+> chmod +x server.sh
+
+> ./server.sh
 
 yang nantinya akan bisa di kunjungi di [localhost](http://localhost:8000/)
