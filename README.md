@@ -1,13 +1,13 @@
-# Tugas Besar Pemprograman Web Kelompok 2
+# Tugas Besar Pemprograman Web Kelompok 4
 Project github ini dibuat untuk memenuhi tugas besar pemprograman web 
 
 # Anggota
-Berikut adalah anggota dari kelompok 2:
+Berikut adalah anggota dari kelompok 4:
 
 - Billy Yuriaan 1303204141
 - Dewaka Rachmanda Naparo Bangun 1303204014
 - Ida Bagus Peling Prayoga 1303204114
-- Mary Bolung 130320
+- Mary Bolung 1303202025
 
 # Running Dengan Server
 Server dapat di jalankan pada php server tanpa xampp maupun lampp, pertama pastikan php terinstall
