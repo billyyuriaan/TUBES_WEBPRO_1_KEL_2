@@ -1,5 +1,9 @@
-<?php 
-session_start();
+<?php
+include "../function/loginable.php";
+
+$controller = new Functions();
+
+$controller->checkLogin();
 
 ?>
 
@@ -38,7 +42,7 @@ session_start();
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
 						<i class="fa fa-bars"></i>
 					</button>
-					<a class="navbar-brand logo" href="http://localhost"><img src="../assets/../assets/images/logo.png"
+					<a class="navbar-brand logo" href="http://localhost"><img src="../assets/images/logo.png"
 							class="img-responsive" /></a>
 				</div>
 				<div class="collapse navbar-collapse" id="navbar-menu">
@@ -58,63 +62,119 @@ session_start();
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-6">
-						<h1>DONATE</h1>
+						<h1>PROJECTS</h1>
 					</div>
 					<div class="col-sm-6">
-						<h6 class="breadcrumb"><a href="../assets/index.html">Home</a> / Donate</h6>
+						<h6 class="breadcrumb"><a href="../index.php">Home</a> / Projects</h6>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
 
-	<section id="about-sec">
+	<section id="pro-sec">
 		<div class="container">
-			<div class="row text-center">
-				<h2 style="margin-top:0;">I WISH TO MAKE A DONATION<br>
-					WE NEED YOUR HELP TO HELP OTHERS</h2>
-				<div class="con-form clearfix">
-					<div class="col-md-6">
-						<input type="text" name="name" value="" size="40" class="" aria-required="true"
-							aria-invalid="false" placeholder="First Name*">
+			<div class="row text-center" style="margin-top:-30px;">
+
+				<div class="col-sm-6 col-md-4 clearfix top-off">
+					<div class="grid-image"><img src="../assets/images/test1.jpg"></div>
+					<div class="post-content">
+						<h3>Nepal Earthquake: Clean Water Initiative</h3>
+						<hr>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+							labore et dolore magna aliqua.</p>
+						<a href="../assets/donate.html" title="">Donate Now</a>
 					</div>
-					<div class="col-md-6">
-						<input type="text" name="name" value="" size="40" class="" aria-required="true"
-							aria-invalid="false" placeholder="Last Name*">
-					</div>
-					<div class="col-md-6">
-						<input type="text" name="phone" value="" size="40" class="" aria-invalid="false"
-							placeholder="Phone Number*">
-					</div>
-					<div class="col-md-6">
-						<input type="email" name="email" value="" size="40" class="" aria-invalid="false"
-							placeholder="Email ID*">
-					</div>
-					<div class="col-md-6">
-						<input type="text" name="street" value="" size="40" class="" aria-required="true"
-							aria-invalid="false" placeholder="Street Address*">
-					</div>
-					<div class="col-md-6">
-						<input type="text" name="city" value="" size="40" class="" aria-required="true"
-							aria-invalid="false" placeholder="City / Town*">
-					</div>
-					<div class="col-md-6">
-						<input type="text" name="country" value="" size="40" class="" aria-required="true"
-							aria-invalid="false" placeholder="Country*">
-					</div>
-					<div class="col-md-6">
-						<input type="text" name="amount" value="" size="40" class="" aria-required="true"
-							aria-invalid="false" placeholder="Amount*" id="amout">
-					</div>
-					<div class="col-md-12">
-						<textarea name="message" cols="40" rows="5" class="" id="message" aria-invalid="false"
-							placeholder="Message"></textarea>
-					</div>
-					<div class="col-xs-12 submit-button">
-						<input type="submit" value="Donate Now" class="btn2" id="sub"
-							style="border:none; margin: 20px 0 0 0">
+
+				</div>
+				<div class="col-sm-6 col-md-4 clearfix top-off">
+					<div class="grid-image"><img src="../assets/images/test1.jpg"></div>
+					<div class="post-content">
+						<h3>Nepal Earthquake: Clean Water Initiative</h3>
+						<hr>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+							labore et dolore magna aliqua.</p>
+						<a href="../assets/donate.html" title="">Donate Now</a>
 					</div>
 				</div>
+
+				<div class="col-sm-6 col-md-4 clearfix top-off">
+					<div class="grid-image"><img src="../assets/images/test1.jpg"></div>
+					<div class="post-content">
+						<h3>Nepal Earthquake: Clean Water Initiative</h3>
+						<hr>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+							labore et dolore magna aliqua.</p>
+						<a href="../assets/donate.html" title="">Donate Now</a>
+					</div>
+				</div>
+
+				<div class="col-sm-6 col-md-4 clearfix top-off">
+					<div class="grid-image"><img src="../assets/images/test1.jpg"></div>
+					<div class="post-content">
+						<h3>Nepal Earthquake: Clean Water Initiative</h3>
+						<hr>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+							labore et dolore magna aliqua.</p>
+						<a href="../assets/donate.html" title="">Donate Now</a>
+					</div>
+				</div>
+
+				<div class="col-sm-6 col-md-4 clearfix top-off">
+					<div class="grid-image"><img src="../assets/images/test1.jpg"></div>
+					<div class="post-content">
+						<h3>Nepal Earthquake: Clean Water Initiative</h3>
+						<hr>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+							labore et dolore magna aliqua.</p>
+						<a href="../assets/donate.html" title="">Donate Now</a>
+					</div>
+				</div>
+
+				<div class="col-sm-6 col-md-4 clearfix top-off">
+					<div class="grid-image"><img src="../assets/images/test1.jpg"></div>
+					<div class="post-content">
+						<h3>Nepal Earthquake: Clean Water Initiative</h3>
+						<hr>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+							labore et dolore magna aliqua.</p>
+						<a href="../assets/donate.html" title="">Donate Now</a>
+					</div>
+				</div>
+
+				<div class="col-sm-6 col-md-4 clearfix top-off">
+					<div class="grid-image"><img src="../assets/images/test1.jpg"></div>
+					<div class="post-content">
+						<h3>Nepal Earthquake: Clean Water Initiative</h3>
+						<hr>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+							labore et dolore magna aliqua.</p>
+						<a href="../assets/donate.html" title="">Donate Now</a>
+					</div>
+				</div>
+
+				<div class="col-sm-6 col-md-4 clearfix top-off">
+					<div class="grid-image"><img src="../assets/images/test1.jpg"></div>
+					<div class="post-content">
+						<h3>Nepal Earthquake: Clean Water Initiative</h3>
+						<hr>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+							labore et dolore magna aliqua.</p>
+						<a href="../assets/donate.html" title="">Donate Now</a>
+					</div>
+				</div>
+
+				<div class="col-sm-6 col-md-4 clearfix top-off">
+					<div class="grid-image"><img src="../assets/images/test1.jpg"></div>
+					<div class="post-content">
+						<h3>Nepal Earthquake: Clean Water Initiative</h3>
+						<hr>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+							labore et dolore magna aliqua.</p>
+						<a href="../assets/donate.html" title="">Donate Now</a>
+					</div>
+				</div>
+
 			</div>
 		</div>
 	</section>
@@ -252,30 +312,6 @@ session_start();
 	<script src="../assets/js/bootsnav.js"></script>
 	<script src="../assets/js/banner.js"></script>
 	<script src="../assets/js/script.js"></script>
-    <script src="../assets/sweetalert2/sweetalert2.all.min.js"></script>
-    <script>
-       $("#sub").on("click", (e) => {
-        e.preventDefault()
-
-        Swal.fire({
-            title: 'Are you sure?',
-            text: "You won't be able to revert this!",
-            icon: 'warning',
-            showCancelButton: true,
-            confirmButtonColor: '#3085d6',
-            cancelButtonColor: '#d33',
-            confirmButtonText: 'Yes, donate it!'
-            }).then((result) => {
-            if (result.isConfirmed) {
-                Swal.fire(
-                'Thanks For Your Donation!',
-                'You Has Donated Rp.' + ($("#amout").val() == 0 ? 0 : $("#amout").val()),
-                'success'
-                )
-            }
-        })
-    })
-    </script>
 </body>
 
 </html>
