@@ -1,3 +1,8 @@
+<?php 
+session_start();
+
+?>
+
 <!DOCTYPE HTML>
 <html class="no-js" lang="de">
 
@@ -42,6 +47,11 @@
 						<li><a href="http://localhost/about">About Us</a></li>
 						<li><a href="http://localhost/project">Projects</a></li>
 						<li><a href="http://localhost/contact">Contact Us</a></li>
+                        <?php 
+                        if(isset($_SESSION['username'])){
+                            echo '<li><a href="http://localhost/history">History</a></li>';
+                        }            
+                        ?>
 					</ul>
 				</div>
 			</div>
@@ -158,6 +168,7 @@ Let's be honest.</p>
 
 							<div class="footer-section-body">
 								<ul class="list-links">
+<<<<<<< HEAD
 									<li>
 										<a href="http://localhost/">Home</a>
 									</li>
@@ -170,6 +181,21 @@ Let's be honest.</p>
 									</li>
 									<li>
 										<a href="http://localhost/contact/">Contact Us</a>
+=======
+								<li>
+										<a href="http://localhost">Home</a>
+									</li>
+
+									<li>
+										<a href="http://localhost/about">About Us</a>
+									</li>
+
+									<li>
+										<a href="http://localhost/contact">Contact Us</a>
+									</li>
+									<li>
+										<a href="http://localhost/project">Projects</a>
+>>>>>>> e8be3ba011e979db9d228f1077318c370fb8ba88
 									</li>
 
 								</ul><!-- /.list-links -->

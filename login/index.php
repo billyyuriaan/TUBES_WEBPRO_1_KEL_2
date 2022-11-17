@@ -1,3 +1,8 @@
+<?php 
+session_start();
+
+?>
+
 <!DOCTYPE HTML>
 <html class="no-js" lang="de">
 
@@ -44,6 +49,11 @@
 						<li><a href="http://localhost/about">About Us</a></li>
 						<li><a href="http://localhost/project">Projects</a></li>
 						<li><a href="http://localhost/contact">Contact Us</a></li>
+                        <?php 
+                        if(isset($_SESSION['username'])){
+                            echo '<li><a href="http://localhost/history">History</a></li>';
+                        }            
+                        ?>
 					</ul>
 				</div>
 			</div>
@@ -130,6 +140,7 @@ Let's be honest.</p>
 						<div class="footer-section">
 							<h4 class="footer-section-title">Quick Links</h4><!-- /.footer-section-title -->
 
+<<<<<<< HEAD
 							<div class="footer-section-body">
 								<ul class="list-links">
 									<li>
@@ -155,6 +166,24 @@ Let's be honest.</p>
 					<div class="col-md-3">
 						<div class="footer-section">
 							<h4 class="footer-section-title">Newsletter Signup</h4><!-- /.footer-section-title -->
+=======
+                            <div class="footer-section-body">
+                                <ul class="list-links">
+                                <li>
+										<a href="http://localhost">Home</a>
+									</li>
+
+									<li>
+										<a href="http://localhost/about">About Us</a>
+									</li>
+
+									<li>
+										<a href="http://localhost/contact">Contact Us</a>
+									</li>
+									<li>
+										<a href="http://localhost/project">Projects</a>
+									</li>
+>>>>>>> e8be3ba011e979db9d228f1077318c370fb8ba88
 
 							<div class="footer-section-body">
 								<p>Select your newsletters, enter your email address, and click "Subscribe"</p>
