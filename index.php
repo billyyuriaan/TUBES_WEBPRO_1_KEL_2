@@ -79,7 +79,7 @@
 					<h3 data-animation="animated bounceInDown">I will follow the coaching process, but I will give it the same time
 						They happened with some great labor and pain. For to come to the smallest detail, what is our exercise?
 						no effort except to get some benefit from it.</h3>
-					<h4 data-animation="animated bounceInUp"><a href="about-us.html">READ MORE</a></h4>
+					<h4 data-animation="animated bounceInUp"><a href="http://localhost/about/">READ MORE</a></h4>
 				</div>
 				<!-- Item 2 -->
 				<div class="item slide2">
@@ -87,7 +87,7 @@
 					<h3 data-animation="animated bounceInDown">I will follow the coaching process, but I will give it the same time
 						They happened with some great labor and pain. For to come to the smallest detail, what is our exercise?
 						no effort except to get some benefit from it.</h3>
-					<h4 data-animation="animated bounceInUp"><a href="about-us.html">READ MORE</a></h4>
+					<h4 data-animation="animated bounceInUp"><a href="http://localhost/about/">READ MORE</a></h4>
 				</div>
 				<!-- Item 3 -->
 				<div class="item slide3">
@@ -95,7 +95,7 @@
 					<h3 data-animation="animated bounceInDown">I will follow the coaching process, but I will give it the same time
 						They happened with some great labor and pain. For to come to the smallest detail, what is our exercise?
 						no effort except to get some benefit from it.</h3>
-					<h4 data-animation="animated bounceInUp"><a href="about-us.html">READ MORE</a></h4>
+					<h4 data-animation="animated bounceInUp"><a href="http://localhost/about/">READ MORE</a></h4>
 				</div>
 				<!-- Item 4 -->
 				<div class="item slide4">
@@ -103,7 +103,7 @@
 					<h3 data-animation="animated bounceInDown">I will follow the coaching process, but I will give it the same time
 						They happened with some great labor and pain. For to come to the smallest detail, what is our exercise?
 						no effort except to get some benefit from it.</h3>
-					<h4 data-animation="animated bounceInUp"><a href="about-us.html">READ MORE</a></h4>
+					<h4 data-animation="animated bounceInUp"><a href="http://localhost/about/">READ MORE</a></h4>
 				</div>
 				<!-- End Item 4 -->
 
@@ -121,7 +121,7 @@
 	<section id="about-sec">
 		<div class="container">
 			<div class="row text-center">
-				<h1>ABOUT CHARITY HOPE</h1>
+				<h1>ABOUT NEW HOPE</h1>
 				<hr>
 				<h5>It is very important for the customer to follow the customer's training, but it is the same time as the work
 					and with some great pain.</h5>
@@ -140,8 +140,8 @@
 					benefit? But who can rightfully criticize him who prefers to be in that pleasure rather than nothing
 					will result in trouble.</p>
 				<div class="text-center">
-					<a href="donate.html" class="btn1">donate now</a>
-					<a href="about-us.html" class="btn2">Read More</a>
+					<a href="http://localhost/donate/" class="btn1">donate now</a>
+					<a href="http://localhost/about/" class="btn2">Read More</a>
 				</div>
 			</div>
 		</div>
@@ -159,54 +159,54 @@
 						<div class="grid-content-left"><i class="fa fa-heart"></i></div>
 						<div class="grid-content-wrapper">
 							<h4>Charity for Education</h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut efficitur eget justo quis
-								dignissim.</p>
-							<a href="activities.html" title="">Read More</a>
+							<p>It is very important for the customer to follow the customer's training, but it is the same time as the work
+					and with some great pain.</p>
+							<a href="http://localhost/project/" title="">Read More</a>
 						</div>
 					</div>
 					<div class="col-md-4 clearfix top-off">
 						<div class="grid-content-left"><i class="fa fa-cutlery"></i></div>
 						<div class="grid-content-wrapper">
 							<h4>Feed for Hungry Child</h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut efficitur eget justo quis
-								dignissim.</p>
-							<a href="activities.html" title="">Read More</a>
+							<p>It is very important for the customer to follow the customer's training, but it is the same time as the work
+					and with some great pain.</p>
+							<a href="http://localhost/project/" title="">Read More</a>
 						</div>
 					</div>
 					<div class="col-md-4 clearfix top-off">
 						<div class="grid-content-left"><i class="fa fa-home"></i></div>
 						<div class="grid-content-wrapper">
 							<h4>Home for Homeless</h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut efficitur eget justo quis
-								dignissim.</p>
-							<a href="activities.html" title="">Read More</a>
+							<p>It is very important for the customer to follow the customer's training, but it is the same time as the work
+					and with some great pain.</p>
+							<a href="http://localhost/project/" title="">Read More</a>
 						</div>
 					</div>
 					<div class="col-md-4 clearfix top-off">
 						<div class="grid-content-left"><i class="fa fa-tint"></i></div>
 						<div class="grid-content-wrapper">
 							<h4>Bringing Clean Water</h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut efficitur eget justo quis
-								dignissim.</p>
-							<a href="activities.html" title="">Read More</a>
+							<p>It is very important for the customer to follow the customer's training, but it is the same time as the work
+					and with some great pain.</p>
+							<a href="http://localhost/project/" title="">Read More</a>
 						</div>
 					</div>
 					<div class="col-md-4 clearfix top-off">
 						<div class="grid-content-left"><i class="fa fa-thumbs-up"></i></div>
 						<div class="grid-content-wrapper">
 							<h4>Help Little Hands</h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut efficitur eget justo quis
-								dignissim.</p>
-							<a href="activities.html" title="">Read More</a>
+							<p>It is very important for the customer to follow the customer's training, but it is the same time as the work
+					and with some great pain.</p>
+							<a href="http://localhost/project/" title="">Read More</a>
 						</div>
 					</div>
 					<div class="col-md-4 clearfix top-off">
 						<div class="grid-content-left"><i class="fa fa-money"></i></div>
 						<div class="grid-content-wrapper">
 							<h4>Donate for Children</h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut efficitur eget justo quis
-								dignissim.</p>
-							<a href="activities.html" title="">Read More</a>
+							<p>It is very important for the customer to follow the customer's training, but it is the same time as the work
+					and with some great pain.</p>
+							<a href="http://localhost/project/" title="">Read More</a>
 						</div>
 					</div>
 				</div>
@@ -219,8 +219,8 @@
 			<div class="row text-center">
 				<h1>How can you help?</h1>
 				<hr>
-				<h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-					et dolore magna aliqua.</h5>
+				<h5>It is very important for the customer to follow the customer's training, but it is the same time as the work
+and with some great pain.</h5>
 				<div class="text-left">
 					<div class="col-md-6 clearfix top-off">
 						<video width="400" controls>
@@ -266,17 +266,17 @@
 			<div class="row text-center">
 				<h1>OUR PROJECTS</h1>
 				<hr>
-				<h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-					et dolore magna aliqua.</h5>
+				<h5>It is very important for the customer to follow the customer's training, but it is the same time as the work
+and with some great pain.</h5>
 				<div class="text-center">
 					<div class="col-md-4 clearfix top-off">
 						<div class="grid-image"><img src="/assets/images/test1.jpg"></div>
 						<div class="post-content">
 							<h3>Nepal Earthquake: Clean Water Initiative</h3>
 							<hr>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-								ut labore et dolore magna aliqua.</p>
-							<a href="projects.html" title="">View Project</a>
+							<p>It is very important for the customer to follow the customer's training, but it is the same time as the work
+and with some great pain.</p>
+							<a href="http://localhost/project/" title="">View Project</a>
 						</div>
 					</div>
 					<div class="col-md-4 clearfix top-off">
@@ -284,9 +284,9 @@
 						<div class="post-content">
 							<h3>Nepal Earthquake: Clean Water Initiative</h3>
 							<hr>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-								ut labore et dolore magna aliqua.</p>
-							<a href="projects.html" title="">View Project</a>
+							<p>It is very important for the customer to follow the customer's training, but it is the same time as the work
+and with some great pain.</p>
+							<a href="http://localhost/project/" title="">View Project</a>
 						</div>
 					</div>
 					<div class="col-md-4 clearfix top-off">
@@ -294,9 +294,9 @@
 						<div class="post-content">
 							<h3>Nepal Earthquake: Clean Water Initiative</h3>
 							<hr>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-								ut labore et dolore magna aliqua.</p>
-							<a href="projects.html" title="">View Project</a>
+							<p>It is very important for the customer to follow the customer's training, but it is the same time as the work
+and with some great pain.</p>
+							<a href="http://localhost/project/" title="">View Project</a>
 						</div>
 					</div>
 				</div>
@@ -309,8 +309,8 @@
 			<div class="row text-center">
 				<h1>OUR GALLERY</h1>
 				<hr>
-				<h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-					et dolore magna aliqua.</h5>
+				<h5>It is very important for the customer to follow the customer's training, but it is the same time as the work
+and with some great pain.</h5>
 				<ul class="clearfix">
 
 					<li>
@@ -388,13 +388,13 @@
 
 				<div class="col-md-6">
 					<div class="callout-actions">
-						<a href="contact.html" class="button">Become Volunteer</a>
+						<a href="http://localhost/contact/" class="button">Become Volunteer</a>
 
 						<span class="callout-separator">
 							<span>Or</span>
 						</span>
 
-						<a href="donate.html" class="button">Donate For Cause</a>
+						<a href="http://localhost/contact/" class="button">Donate For Cause</a>
 					</div><!-- /.callout-actions -->
 				</div><!-- /.columns large-6 -->
 			</div><!-- /.row -->
@@ -410,9 +410,9 @@
 							<h4 class="footer-section-title">About Charity</h4><!-- /.footer-section-title -->
 
 							<div class="footer-section-body">
-								<p>Charity vitae diam pulvinar, tempus dia aliquam tellus. Quisque mattis odio eu
-									placerat luctus. Vivamus magna elit, ultrices non lacinia vel, tempor vitae tell
-									Fusce sit amet sem sit amet.</p>
+								<p>Charity is the pillow of life, and time is the day of some earth. Everyone really hates football
+mourns We live a great life, basketball is not lacinia or, tell the time of life
+Let's be honest.</p>
 							</div><!-- /.footer-section-body -->
 						</div><!-- /.footer-section -->
 					</div><!-- /.columns large-3 medium-12 -->
@@ -424,18 +424,17 @@
 							<div class="footer-section-body">
 								<ul class="list-links">
 									<li>
-										<a href="http://localhost">Home</a>
+										<a href="http://localhost/">Home</a>
 									</li>
 
 									<li>
-										<a href="http://localhost/about">About Us</a>
-									</li>
-
-									<li>
-										<a href="http://localhost/contact">Contact Us</a>
+										<a href="http://localhost/about/">About Us</a>
 									</li>
 									<li>
-										<a href="http://localhost/project">Projects</a>
+										<a href="http://localhost/project/">Projects</a>
+									</li>
+									<li>
+										<a href="http://localhost/contact/">Contact Us</a>
 									</li>
 
 								</ul><!-- /.list-links -->

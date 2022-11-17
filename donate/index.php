@@ -66,7 +66,7 @@ session_start();
 						<h1>DONATE</h1>
 					</div>
 					<div class="col-sm-6">
-						<h6 class="breadcrumb"><a href="../assets/index.html">Home</a> / Donate</h6>
+						<h6 class="breadcrumb"><a href="http://localhost/">Home</a> / Donate</h6>
 					</div>
 				</div>
 			</div>
@@ -133,13 +133,13 @@ session_start();
 
 				<div class="col-md-6">
 					<div class="callout-actions">
-						<a href="../assets/contact.html" class="button">Become Volunteer</a>
+						<a href="http://localhost/contact/" class="button">Become Volunteer</a>
 
 						<span class="callout-separator">
 							<span>Or</span>
 						</span>
 
-						<a href="../assets/donate.html" class="button">Donate For Cause</a>
+						<a href="http://localhost/donate/" class="button">Donate For Cause</a>
 					</div><!-- /.callout-actions -->
 				</div><!-- /.columns large-6 -->
 			</div><!-- /.row -->
@@ -155,9 +155,9 @@ session_start();
 							<h4 class="footer-section-title">About Charity</h4><!-- /.footer-section-title -->
 
 							<div class="footer-section-body">
-								<p>Charity vitae diam pulvinar, tempus dia aliquam tellus. Quisque mattis odio eu
-									placerat luctus. Vivamus magna elit, ultrices non lacinia vel, tempor vitae tell
-									Fusce sit amet sem sit amet.</p>
+								<p>Charity is the pillow of life, and time is the day of some earth. Everyone really hates football
+mourns We live a great life, basketball is not lacinia or, tell the time of life
+Let's be honest.</p>
 							</div><!-- /.footer-section-body -->
 						</div><!-- /.footer-section -->
 					</div><!-- /.columns large-3 medium-12 -->
@@ -168,6 +168,20 @@ session_start();
 
 							<div class="footer-section-body">
 								<ul class="list-links">
+<<<<<<< HEAD
+									<li>
+										<a href="http://localhost/">Home</a>
+									</li>
+
+									<li>
+										<a href="http://localhost/about/">About Us</a>
+									</li>
+									<li>
+										<a href="http://localhost/project/">Projects</a>
+									</li>
+									<li>
+										<a href="http://localhost/contact/">Contact Us</a>
+=======
 								<li>
 										<a href="http://localhost">Home</a>
 									</li>
@@ -181,6 +195,7 @@ session_start();
 									</li>
 									<li>
 										<a href="http://localhost/project">Projects</a>
+>>>>>>> e8be3ba011e979db9d228f1077318c370fb8ba88
 									</li>
 
 								</ul><!-- /.list-links -->
