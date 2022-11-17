@@ -33,22 +33,22 @@
 		<div class="container">
 			<div class="row">
 				<div class="attr-nav">
-					<a class="donation" href="donate.html">donate now</a>
-					<a class="login" href="login.html">login</a>
+					<a class="donation" href="http://localhost/donate">donate now</a>
+					<a class="login" href="http://localhost/login">login</a>
 				</div>
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
 						<i class="fa fa-bars"></i>
 					</button>
-					<a class="navbar-brand logo" href="index.html"><img src="./assets/images/logo.png"
+					<a class="navbar-brand logo" href="http://localhost"><img src="./assets/images/logo.png"
 							class="img-responsive" /></a>
 				</div>
 				<div class="collapse navbar-collapse" id="navbar-menu">
 					<ul class="nav navbar-nav navbar-left" data-in="fadeInDown" data-out="fadeOutUp">
-						<li><a href="index.html">Home</a></li>
-						<li><a href="about-us.html">About Us</a></li>
-						<li><a href="projects.html">Projects</a></li>
-						<li><a href="contact.html">Contact Us</a></li>
+						<li><a href="http://localhost">Home</a></li>
+						<li><a href="http://localhost/about">About Us</a></li>
+						<li><a href="http://localhost/project">Projects</a></li>
+						<li><a href="http://localhost/contact">Contact Us</a></li>
 					</ul>
 				</div>
 			</div>

@@ -22,26 +22,26 @@
 </head>
 
 <body>
-	<nav class="navbar navbar-default navbar-sticky bootsnav">
+<nav class="navbar navbar-default navbar-sticky bootsnav">
 		<div class="container">
 			<div class="row">
 				<div class="attr-nav">
-					<a class="donation" href="../assets/donate.html">donate now</a>
-					<a class="login" href="../assets/login.html">login</a>
+					<a class="donation" href="http://localhost/donate">donate now</a>
+					<a class="login" href="http://localhost/login">login</a>
 				</div>
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
 						<i class="fa fa-bars"></i>
 					</button>
-					<a class="navbar-brand logo" href="../assets/index.html"><img src="images/logo.png"
+					<a class="navbar-brand logo" href="http://localhost"><img src="../assets/images/logo.png"
 							class="img-responsive" /></a>
 				</div>
 				<div class="collapse navbar-collapse" id="navbar-menu">
 					<ul class="nav navbar-nav navbar-left" data-in="fadeInDown" data-out="fadeOutUp">
-						<li><a href="../index.php">Home</a></li>
-						<li><a href="../about/index.php">About Us</a></li>
-						<li><a href="../">Projects</a></li>
-						<li><a href="../assets/contact.html">Contact Us</a></li>
+						<li><a href="http://localhost">Home</a></li>
+						<li><a href="http://localhost/about">About Us</a></li>
+						<li><a href="http://localhost/project">Projects</a></li>
+						<li><a href="http://localhost/contact">Contact Us</a></li>
 					</ul>
 				</div>
 			</div>
