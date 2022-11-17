@@ -417,26 +417,18 @@
 							<div class="footer-section-body">
 								<ul class="list-links">
 									<li>
-										<a href="index.html">Home</a>
+										<a href="http://localhost">Home</a>
 									</li>
 
 									<li>
-										<a href="about-us.html">About Us</a>
+										<a href="http://localhost/about">About Us</a>
 									</li>
 
 									<li>
-										<a href="activities.html">Activities</a>
+										<a href="http://localhost/contact">Contact Us</a>
 									</li>
 									<li>
-										<a href="projects.html">Projects</a>
-									</li>
-
-									<li>
-										<a href="gallery.html">Gallery</a>
-									</li>
-
-									<li>
-										<a href="contact.html">Contact Us</a>
+										<a href="http://localhost/project">Projects</a>
 									</li>
 
 								</ul><!-- /.list-links -->
