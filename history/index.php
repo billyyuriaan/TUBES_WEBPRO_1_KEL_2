@@ -20,11 +20,11 @@ $controller = new Functions();
 
     <title>New Hope - Tubes Webpro</title>
     
-    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css"> -->
     <link href="../assets/css/font-awesome.min.css" rel="stylesheet">
     <link href="../assets/css/animate.css" rel="stylesheet">
     <link href="../assets/css/bootsnav.css" rel="stylesheet">
-    <!-- <link href="../assets/css/bootstrap.css" rel="stylesheet"> -->
+    <link href="../assets/css/bootstrap.css" rel="stylesheet">
     <link href="../assets/css/style.css" rel="stylesheet">
     <link rel="stylesheet" href="http://localhost/assets/jquery/plugins/ui/jquery-ui.css">
 
