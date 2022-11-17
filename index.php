@@ -13,7 +13,7 @@
 	<meta name="keywords" content="">
 	<meta name="robots" content="index,follow">
 
-	<title>New Hope - Tubes Webpro</title>
+	<title>Tubes Webpro</title>
 
   <!-- Bootstrap -->
   <link rel="stylesheet" href="./assets/bootsrap/js/bootstrap.min.js">
@@ -69,33 +69,33 @@
 				<!-- Item 1 -->
 				<div class="item active slide1">
 					<h2 data-animation="animated bounceInDown"><span>Give a little change a lot</span></h2>
-					<h3 data-animation="animated bounceInDown">consectetur adipiscing elit, sed do eiusmod tempor
-						incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-						ullamco laboris nisi ut aliquip ex ea commodo consequat.!</h3>
+					<h3 data-animation="animated bounceInDown">I will follow the coaching process, but I will give it the same time
+						They happened with some great labor and pain. For to come to the smallest detail, what is our exercise?
+						no effort except to get some benefit from it.</h3>
 					<h4 data-animation="animated bounceInUp"><a href="about-us.html">READ MORE</a></h4>
 				</div>
 				<!-- Item 2 -->
 				<div class="item slide2">
 					<h2 data-animation="animated bounceInDown"><span>More charity More better life</span></h2>
-					<h3 data-animation="animated bounceInDown">consectetur adipiscing elit, sed do eiusmod tempor
-						incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-						ullamco laboris nisi ut aliquip ex ea commodo consequat.!</h3>
+					<h3 data-animation="animated bounceInDown">I will follow the coaching process, but I will give it the same time
+						They happened with some great labor and pain. For to come to the smallest detail, what is our exercise?
+						no effort except to get some benefit from it.</h3>
 					<h4 data-animation="animated bounceInUp"><a href="about-us.html">READ MORE</a></h4>
 				</div>
 				<!-- Item 3 -->
 				<div class="item slide3">
 					<h2 data-animation="animated bounceInDown"><span>Raise fund Warm heart</span></h2>
-					<h3 data-animation="animated bounceInDown">consectetur adipiscing elit, sed do eiusmod tempor
-						incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-						ullamco laboris nisi ut aliquip ex ea commodo consequat.!</h3>
+					<h3 data-animation="animated bounceInDown">I will follow the coaching process, but I will give it the same time
+						They happened with some great labor and pain. For to come to the smallest detail, what is our exercise?
+						no effort except to get some benefit from it.</h3>
 					<h4 data-animation="animated bounceInUp"><a href="about-us.html">READ MORE</a></h4>
 				</div>
 				<!-- Item 4 -->
 				<div class="item slide4">
 					<h2 data-animation="animated bounceInDown"><span>Raise your funds for a cause</span></h2>
-					<h3 data-animation="animated bounceInDown">consectetur adipiscing elit, sed do eiusmod tempor
-						incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-						ullamco laboris nisi ut aliquip ex ea commodo consequat.!</h3>
+					<h3 data-animation="animated bounceInDown">I will follow the coaching process, but I will give it the same time
+						They happened with some great labor and pain. For to come to the smallest detail, what is our exercise?
+						no effort except to get some benefit from it.</h3>
 					<h4 data-animation="animated bounceInUp"><a href="about-us.html">READ MORE</a></h4>
 				</div>
 				<!-- End Item 4 -->
@@ -116,22 +116,22 @@
 			<div class="row text-center">
 				<h1>ABOUT CHARITY HOPE</h1>
 				<hr>
-				<h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-					et dolore magna aliqua.</h5>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-					et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-					aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-					culpa qui officia deserunt mollit anim id est laborum.</p>
-				<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
-					totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
-					dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
-					sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam
-					est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius
-					modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima
-					veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea
-					commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil
-					molestiae consequatur.</p>
+				<h5>It is very important for the customer to follow the customer's training, but it is the same time as the work
+					and with some great pain.</h5>
+				<p>It is very important for the customer to follow the customer's training, but it is the same time as the work
+					and with some great pain. For let me come to the smallest detail, no one should practice any kind of work except that
+					some of it is useful. Doubts or irure pain in reprimanding in pleasure wants to be
+					let no hair flee from pain Unless they are blinded by lust, they do not come out, they are in
+					The guilt of those who abandon their duties softens the soul, that is, the labors.</p>
+				<p>But in order that you may see whence all this born error is of those who accuse pleasure and praise pain,
+					I will open the whole matter, and those very things which have come from that discoverer of truth and, as it were, the architect of a happy life
+					I will explain what was said. For no one despises or hates or runs away from pleasure itself because it is pleasure.
+					but because great sorrows result to those who do not know how to follow pleasure with reason. Nor any further
+					he is one who wants to pursue pain because it is pain, but because it is never his
+					There are times when he seeks some great pleasure through labor and pain. In order to make it as small as possible
+					I am sorry, who of us undertakes any physical exercise that is laborious, except to get something out of it
+					benefit? But who can rightfully criticize him who prefers to be in that pleasure rather than nothing
+					will result in trouble.</p>
 				<div class="text-center">
 					<a href="donate.html" class="btn1">donate now</a>
 					<a href="about-us.html" class="btn2">Read More</a>
@@ -145,8 +145,8 @@
 			<div class="row text-center">
 				<h1>WHAT WE DO?</h1>
 				<hr>
-				<h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-					et dolore magna aliqua.</h5>
+				<h5>It is very important for the customer to follow the customer's training, but it is the same time as the work
+					and with some great pain.</h5>
 				<div class="text-left">
 					<div class="col-md-4 clearfix top-off">
 						<div class="grid-content-left"><i class="fa fa-heart"></i></div>
