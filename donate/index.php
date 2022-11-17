@@ -33,7 +33,7 @@
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
 						<i class="fa fa-bars"></i>
 					</button>
-					<a class="navbar-brand logo" href="http://localhost"><img src="../assets/images/logo.png"
+					<a class="navbar-brand logo" href="http://localhost"><img src="../assets/../assets/images/logo.png"
 							class="img-responsive" /></a>
 				</div>
 				<div class="collapse navbar-collapse" id="navbar-menu">
@@ -99,7 +99,7 @@
 					</div>
 					<div class="col-md-6">
 						<input type="text" name="amount" value="" size="40" class="" aria-required="true"
-							aria-invalid="false" placeholder="Amount*">
+							aria-invalid="false" placeholder="Amount*" id="amout">
 					</div>
 					<div class="col-md-12">
 						<textarea name="message" cols="40" rows="5" class="" id="message" aria-invalid="false"
@@ -250,11 +250,35 @@
 		</div>
 	</footer>
 
-	<script type="text/javascript" src="js/jquery.min.js"></script>
-	<script src="js/bootstrap.js"></script>
-	<script src="js/bootsnav.js"></script>
-	<script src="js/banner.js"></script>
-	<script src="js/script.js"></script>
+	<script type="text/javascript" src="../assets/js/jquery.min.js"></script>
+	<script src="../assets/js/bootstrap.js"></script>
+	<script src="../assets/js/bootsnav.js"></script>
+	<script src="../assets/js/banner.js"></script>
+	<script src="../assets/js/script.js"></script>
+    <script src="../assets/sweetalert2/sweetalert2.all.min.js"></script>
+    <script>
+       $("#sub").on("click", (e) => {
+        e.preventDefault()
+
+        Swal.fire({
+            title: 'Are you sure?',
+            text: "You won't be able to revert this!",
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonColor: '#3085d6',
+            cancelButtonColor: '#d33',
+            confirmButtonText: 'Yes, donate it!'
+            }).then((result) => {
+            if (result.isConfirmed) {
+                Swal.fire(
+                'Thanks For Your Donation!',
+                'You Has Donated Rp.' + ($("#amout").val() == 0 ? 0 : $("#amout").val()),
+                'success'
+                )
+            }
+        })
+    })
+    </script>
 </body>
 
 </html>
