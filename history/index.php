@@ -51,6 +51,11 @@ $controller->checkLogin();
 						<li><a href="http://localhost/about">About Us</a></li>
 						<li><a href="http://localhost/project">Projects</a></li>
 						<li><a href="http://localhost/contact">Contact Us</a></li>
+                        <?php 
+                        if(isset($_SESSION['username'])){
+                            echo '<li><a href="http://localhost/history">History</a></li>';
+                        }            
+                        ?>
 					</ul>
 				</div>
 			</div>
