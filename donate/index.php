@@ -56,7 +56,7 @@
 						<h1>DONATE</h1>
 					</div>
 					<div class="col-sm-6">
-						<h6 class="breadcrumb"><a href="../assets/index.html">Home</a> / Donate</h6>
+						<h6 class="breadcrumb"><a href="http://localhost/">Home</a> / Donate</h6>
 					</div>
 				</div>
 			</div>
@@ -123,13 +123,13 @@
 
 				<div class="col-md-6">
 					<div class="callout-actions">
-						<a href="../assets/contact.html" class="button">Become Volunteer</a>
+						<a href="http://localhost/contact/" class="button">Become Volunteer</a>
 
 						<span class="callout-separator">
 							<span>Or</span>
 						</span>
 
-						<a href="../assets/donate.html" class="button">Donate For Cause</a>
+						<a href="http://localhost/donate/" class="button">Donate For Cause</a>
 					</div><!-- /.callout-actions -->
 				</div><!-- /.columns large-6 -->
 			</div><!-- /.row -->
@@ -145,9 +145,9 @@
 							<h4 class="footer-section-title">About Charity</h4><!-- /.footer-section-title -->
 
 							<div class="footer-section-body">
-								<p>Charity vitae diam pulvinar, tempus dia aliquam tellus. Quisque mattis odio eu
-									placerat luctus. Vivamus magna elit, ultrices non lacinia vel, tempor vitae tell
-									Fusce sit amet sem sit amet.</p>
+								<p>Charity is the pillow of life, and time is the day of some earth. Everyone really hates football
+mourns We live a great life, basketball is not lacinia or, tell the time of life
+Let's be honest.</p>
 							</div><!-- /.footer-section-body -->
 						</div><!-- /.footer-section -->
 					</div><!-- /.columns large-3 medium-12 -->
@@ -159,26 +159,17 @@
 							<div class="footer-section-body">
 								<ul class="list-links">
 									<li>
-										<a href="../assets/index.html">Home</a>
+										<a href="http://localhost/">Home</a>
 									</li>
 
 									<li>
-										<a href="../assets/about-us.html">About Us</a>
-									</li>
-
-									<li>
-										<a href="../assets/activities.html">Activities</a>
+										<a href="http://localhost/about/">About Us</a>
 									</li>
 									<li>
-										<a href="../assets/projects.html">Projects</a>
+										<a href="http://localhost/project/">Projects</a>
 									</li>
-
 									<li>
-										<a href="../assets/gallery.html">Gallery</a>
-									</li>
-
-									<li>
-										<a href="../assets/contact.html">Contact Us</a>
+										<a href="http://localhost/contact/">Contact Us</a>
 									</li>
 
 								</ul><!-- /.list-links -->
