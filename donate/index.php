@@ -40,7 +40,7 @@
 					<ul class="nav navbar-nav navbar-left" data-in="fadeInDown" data-out="fadeOutUp">
 						<li><a href="../index.php">Home</a></li>
 						<li><a href="../about/index.php">About Us</a></li>
-						<li><a href="../assets/projects.html">Projects</a></li>
+						<li><a href="../">Projects</a></li>
 						<li><a href="../assets/contact.html">Contact Us</a></li>
 					</ul>
 				</div>

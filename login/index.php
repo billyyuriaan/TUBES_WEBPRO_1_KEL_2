@@ -1,91 +1,513 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html class="no-js" lang="de">
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="robots" content="index,follow">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../assets/jquery/plugins/ui/jquery-ui.css">
+    <title>New Hope - Tubes Webpro</title>
+
+    <link href="../assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="../assets/css/animate.css" rel="stylesheet">
+    <link href="../assets/css/bootsnav.css" rel="stylesheet">
+    <link href="../assets/css/bootstrap.css" rel="stylesheet">
+    <link href="../assets/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/owl.carousel.css">
+    <link href="../assets/css/owl.theme.css" rel="stylesheet">
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link href="../assets/https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container justify-content-end">
-            <a class="navbar-brand" href="http://localhost:8000/">Navbar</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="http://localhost:8000/">Home</a>
-                    </li>
-                    <?php 
-              if(isset($_SESSION['nama'])){
-                echo "<li class='nav-item'>
-                <a class='nav-link' href='http://localhost:8000/form/index.php'>Form</a>
-              </li>
-              <li class='nav-item'>
-                <a class='nav-link' href='http://localhost:8000/table/index.php'>Table</a>
-              </li>";
-                echo "<li class='nav-item'>
-                <a class='nav-link' href='http://localhost:8000/auth/logout.php'>Logout</a>
-              </li>";
-              }else{
-                echo "<li class='nav-item'>
-                <a class='nav-link' href='http://localhost:8000/login/index.php'>Login</a>
-              </li>";
-              }
-              ?>
+    <nav class="navbar navbar-default navbar-sticky bootsnav">
+        <div class="container">
+            <div class="row">
+                <div class="attr-nav">
+                    <a class="donation" href="../assets/donate.html">donate now</a>
+                    <a class="login" href="../assets/login.html">login</a>
+                </div>
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                    <a class="navbar-brand logo" href="../assets/index.html"><img src="../assets/images/logo.png"
+                            class="img-responsive" /></a>
+                </div>
+                <div class="collapse navbar-collapse" id="navbar-menu">
+                    <ul class="nav navbar-nav navbar-left data-in=" fadeInDown" data-out="fadeOutUp">
+                        <li><a href="../assets/index.html">Home</a></li>
+                        <li><a href="../assets/about-us.html">About Us</a></li>
+                        <li><a href="../assets/projects.html">Projects</a></li>
+                        <li><a href="../assets/contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </nav>
-    <section class="h-100">
-        <div class="container h-100">
-            <div class="row justify-content-sm-center h-100">
-                <div class="col-xxl-4 col-xl-5 col-lg-5 col-md-7 col-sm-9">
-                    <div class="text-center my-5">
-                        <div class="card shadow-lg">
-                            <div class="card-body p-5">
-                                <h1 class="fs-4 card-title fw-bold mb-4">Login</h1>
-                                <form action="http://localhost:8000/auth/login.php" method="POST">
-                                    <div class="mb-3">
-                                        <label class="mb-2 text-muted" for="email">E-Mail Address</label>
-                                        <input id="email" type="email" class="form-control" name="email" value=""
-                                            required autofocus>
-                                        <div class="invalid-feedback">
-                                            Email is invalid
-                                        </div>
-                                    </div>
-                                    <div class="mb-3">
-                                        <div class="mb-2 w-100">
-                                            <label class="text-muted" for="password">Password</label>
-                                        </div>
-                                        <input id="password" type="password" class="form-control" name="password"
-                                            required>
-                                        <div class="invalid-feedback">
-                                            Password is required
-                                        </div>
-                                    </div>
-                                    <button type="submit" class="btn btn-primary ms-auto">
-                                        Login
-                                    </button>
+
+    <section id="inner-banner">
+        <div class="overlay">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <h1>SPONSER A CHILD</h1>
+                    </div>
+                    <div class="col-sm-6">
+                        <h6 class="breadcrumb"><a href="../assets/index.html">Home</a> / Sponser a Child</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about-sec">
+        <div class="container">
+            <div class="row text-center">
+                <div id="owl-demo" class="owl-carousel owl-theme">
+
+                    <div class="item">
+                        <div class="sponser-box">
+                            <img src="../assets/images/sponser.jpg" alt="Owl Image">
+                            <h4>Hi, I’m Ogwang</h4>
+                            <div class="spon-bdr clearfix">
+                                <div class="col-xs-6">Where I Live</div>
+                                <div class="col-xs-6">Uganda</div>
                             </div>
-                            </form>
+                            <div class="spon-bdr clearfix">
+                                <div class="col-xs-6">My Age</div>
+                                <div class="col-xs-6">7</div>
+                            </div>
+                            <div class="spon-bdr clearfix">
+                                <div class="col-xs-6">My Birthday</div>
+                                <div class="col-xs-6">1/09/2009</div>
+                            </div>
+                            <a href="../assets/sponser.html" class="btn1">Sponsor me</a>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="sponser-box">
+                            <img src="../assets/images/sponser.jpg" alt="Owl Image">
+                            <h4>Hi, I’m Ogwang</h4>
+                            <div class="spon-bdr clearfix">
+                                <div class="col-xs-6">Where I Live</div>
+                                <div class="col-xs-6">Uganda</div>
+                            </div>
+                            <div class="spon-bdr clearfix">
+                                <div class="col-xs-6">My Age</div>
+                                <div class="col-xs-6">7</div>
+                            </div>
+                            <div class="spon-bdr clearfix">
+                                <div class="col-xs-6">My Birthday</div>
+                                <div class="col-xs-6">1/09/2009</div>
+                            </div>
+                            <a href="../assets/sponser.html" class="btn1">Sponsor me</a>>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="sponser-box">
+                            <img src="../assets/images/sponser.jpg" alt="Owl Image">
+                            <h4>Hi, I’m Ogwang</h4>
+                            <div class="spon-bdr clearfix">
+                                <div class="col-xs-6">Where I Live</div>
+                                <div class="col-xs-6">Uganda</div>
+                            </div>
+                            <div class="spon-bdr clearfix">
+                                <div class="col-xs-6">My Age</div>
+                                <div class="col-xs-6">7</div>
+                            </div>
+                            <div class="spon-bdr clearfix">
+                                <div class="col-xs-6">My Birthday</div>
+                                <div class="col-xs-6">1/09/2009</div>
+                            </div>
+                            <a href="../assets/sponser.html" class="btn1">Sponsor me</a>>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="sponser-box">
+                            <img src="../assets/images/sponser.jpg" alt="Owl Image">
+                            <h4>Hi, I’m Ogwang</h4>
+                            <div class="spon-bdr clearfix">
+                                <div class="col-xs-6">Where I Live</div>
+                                <div class="col-xs-6">Uganda</div>
+                            </div>
+                            <div class="spon-bdr clearfix">
+                                <div class="col-xs-6">My Age</div>
+                                <div class="col-xs-6">7</div>
+                            </div>
+                            <div class="spon-bdr clearfix">
+                                <div class="col-xs-6">My Birthday</div>
+                                <div class="col-xs-6">1/09/2009</div>
+                            </div>
+                            <a href="../assets/sponser.html" class="btn1">Sponsor me</a>>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="sponser-box">
+                            <img src="../assets/images/sponser.jpg" alt="Owl Image">
+                            <h4>Hi, I’m Ogwang</h4>
+                            <div class="spon-bdr clearfix">
+                                <div class="col-xs-6">Where I Live</div>
+                                <div class="col-xs-6">Uganda</div>
+                            </div>
+                            <div class="spon-bdr clearfix">
+                                <div class="col-xs-6">My Age</div>
+                                <div class="col-xs-6">7</div>
+                            </div>
+                            <div class="spon-bdr clearfix">
+                                <div class="col-xs-6">My Birthday</div>
+                                <div class="col-xs-6">1/09/2009</div>
+                            </div>
+                            <a href="../assets/sponser.html" class="btn1">Sponsor me</a>>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="sponser-box">
+                            <img src="../assets/images/sponser.jpg" alt="Owl Image">
+                            <h4>Hi, I’m Ogwang</h4>
+                            <div class="spon-bdr clearfix">
+                                <div class="col-xs-6">Where I Live</div>
+                                <div class="col-xs-6">Uganda</div>
+                            </div>
+                            <div class="spon-bdr clearfix">
+                                <div class="col-xs-6">My Age</div>
+                                <div class="col-xs-6">7</div>
+                            </div>
+                            <div class="spon-bdr clearfix">
+                                <div class="col-xs-6">My Birthday</div>
+                                <div class="col-xs-6">1/09/2009</div>
+                            </div>
+                            <a href="../assets/sponser.html" class="btn1">Sponsor me</a>>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="sponser-box">
+                            <img src="../assets/images/sponser.jpg" alt="Owl Image">
+                            <h4>Hi, I’m Ogwang</h4>
+                            <div class="spon-bdr clearfix">
+                                <div class="col-xs-6">Where I Live</div>
+                                <div class="col-xs-6">Uganda</div>
+                            </div>
+                            <div class="spon-bdr clearfix">
+                                <div class="col-xs-6">My Age</div>
+                                <div class="col-xs-6">7</div>
+                            </div>
+                            <div class="spon-bdr clearfix">
+                                <div class="col-xs-6">My Birthday</div>
+                                <div class="col-xs-6">1/09/2009</div>
+                            </div>
+                            <a href="../assets/sponser.html" class="btn1">Sponsor me</a>>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="sponser-box">
+                            <img src="../assets/images/sponser.jpg" alt="Owl Image">
+                            <h4>Hi, I’m Ogwang</h4>
+                            <div class="spon-bdr clearfix">
+                                <div class="col-xs-6">Where I Live</div>
+                                <div class="col-xs-6">Uganda</div>
+                            </div>
+                            <div class="spon-bdr clearfix">
+                                <div class="col-xs-6">My Age</div>
+                                <div class="col-xs-6">7</div>
+                            </div>
+                            <div class="spon-bdr clearfix">
+                                <div class="col-xs-6">My Birthday</div>
+                                <div class="col-xs-6">1/09/2009</div>
+                            </div>
+                            <a href="../assets/sponser.html" class="btn1">Sponsor me</a>>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="activities-sec">
+        <div class="container">
+            <div class="row text-center">
+                <h1>WHAT WE DO?</h1>
+                <hr>
+                <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.</h5>
+                <div class="text-left">
+                    <div class="col-md-4 clearfix top-off">
+                        <div class="grid-content-left"><i class="fa fa-heart"></i></div>
+                        <div class="grid-content-wrapper">
+                            <h4>Charity for Education</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut efficitur eget justo quis
+                                dignissim.</p>
+                            <a href="../assets/activities.html" title="">Read More</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 clearfix top-off">
+                        <div class="grid-content-left"><i class="fa fa-cutlery"></i></div>
+                        <div class="grid-content-wrapper">
+                            <h4>Feed for Hungry Child</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut efficitur eget justo quis
+                                dignissim.</p>
+                            <a href="../assets/activities.html" title="">Read More</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 clearfix top-off">
+                        <div class="grid-content-left"><i class="fa fa-home"></i></div>
+                        <div class="grid-content-wrapper">
+                            <h4>Home for Homeless</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut efficitur eget justo quis
+                                dignissim.</p>
+                            <a href="../assets/activities.html" title="">Read More</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 clearfix top-off">
+                        <div class="grid-content-left"><i class="fa fa-tint"></i></div>
+                        <div class="grid-content-wrapper">
+                            <h4>Bringing Clean Water</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut efficitur eget justo quis
+                                dignissim.</p>
+                            <a href="../assets/activities.html" title="">Read More</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 clearfix top-off">
+                        <div class="grid-content-left"><i class="fa fa-thumbs-up"></i></div>
+                        <div class="grid-content-wrapper">
+                            <h4>Help Little Hands</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut efficitur eget justo quis
+                                dignissim.</p>
+                            <a href="../assets/activities.html" title="">Read More</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 clearfix top-off">
+                        <div class="grid-content-left"><i class="fa fa-money"></i></div>
+                        <div class="grid-content-wrapper">
+                            <h4>Donate for Children</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut efficitur eget justo quis
+                                dignissim.</p>
+                            <a href="../assets/activities.html" title="">Read More</a>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
     </section>
 
-    <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="../assets/jquery/jquery.min.js"></script>
+    <section id="video-sec">
+        <div class="container">
+            <div class="row text-center">
+                <h1>How can you help?</h1>
+                <hr>
+                <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.</h5>
+                <div class="text-left">
+                    <div class="col-md-6 clearfix top-off">
+                        <video width="400" controls>
+                            <source src="../assets/images/mov_bbb.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="col-md-6 clearfix top-off">
+                        <div class="media">
+                            <div class="media-image">
+                                <img src="../assets/images/g1.png" class="attachment-full size-full" alt="g1">
+                            </div>
+                            <div class="media-text">
+                                <h5>BECOME A VOLUNTEER</h5>
+                                <p>Give us a brief description of the service that you are promoting.</p>
+                            </div>
+                        </div>
+                        <div class="media">
+                            <div class="media-image">
+                                <img src="../assets/images/g2.png" class="attachment-full size-full" alt="g1">
+                            </div>
+                            <div class="media-text">
+                                <h5>MAKE A GIFT</h5>
+                                <p>Give us a brief description of the service that you are promoting.</p>
+                            </div>
+                        </div>
+                        <div class="media">
+                            <div class="media-image">
+                                <img src="../assets/images/g1.png" class="attachment-full size-full" alt="g1">
+                            </div>
+                            <div class="media-text">
+                                <h5>GIVE A SCHOLASHIP</h5>
+                                <p>Give us a brief description of the service that you are promoting.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="callout">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>Change Their World. Change Yours. This changes everything.</h2><!-- /.callout-title -->
+                </div><!-- /.columns large-6 -->
+
+                <div class="col-md-6">
+                    <div class="callout-actions">
+                        <a href="../assets/contact.html" class="button">Become Volunteer</a>
+
+                        <span class="callout-separator">
+                            <span>Or</span>
+                        </span>
+
+                        <a href="../assets/donate.html" class="button">Donate For Cause</a>
+                    </div><!-- /.callout-actions -->
+                </div><!-- /.columns large-6 -->
+            </div><!-- /.row -->
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="footer-section">
+                            <h4 class="footer-section-title">About Charity</h4><!-- /.footer-section-title -->
+
+                            <div class="footer-section-body">
+                                <p>Charity vitae diam pulvinar, tempus dia aliquam tellus. Quisque mattis odio eu
+                                    placerat luctus. Vivamus magna elit, ultrices non lacinia vel, tempor vitae tell
+                                    Fusce sit amet sem sit amet.</p>
+                            </div><!-- /.footer-section-body -->
+                        </div><!-- /.footer-section -->
+                    </div><!-- /.columns large-3 medium-12 -->
+
+                    <div class="col-md-3">
+                        <div class="footer-section">
+                            <h4 class="footer-section-title">Quick Links</h4><!-- /.footer-section-title -->
+
+                            <div class="footer-section-body">
+                                <ul class="list-links">
+                                    <li>
+                                        <a href="../assets/index.html">Home</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="../assets/about-us.html">About Us</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="../assets/activities.html">Activities</a>
+                                    </li>
+                                    <li>
+                                        <a href="../assets/projects.html">Projects</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="../assets/gallery.html">Gallery</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="../assets/contact.html">Contact Us</a>
+                                    </li>
+
+                                </ul><!-- /.list-links -->
+
+                            </div><!-- /.footer-section-body -->
+                        </div><!-- /.footer-section -->
+                    </div><!-- /.columns large-3 medium-12 -->
+
+                    <div class="col-md-3">
+                        <div class="footer-section">
+                            <h4 class="footer-section-title">Newsletter Signup</h4><!-- /.footer-section-title -->
+
+                            <div class="footer-section-body">
+                                <p>Select your newsletters, enter your email address, and click "Subscribe"</p>
+
+                                <div class="subscribe">
+                                    <form action="?" method="post">
+                                        <input type="submit" value="Go" class="subscribe-btn">
+
+                                        <div class="subscribe-inner">
+                                            <input type="email" id="mail" name="mail" value=""
+                                                placeholder="Email Address" class="subscribe-field">
+                                        </div><!-- /.subscribe-inner -->
+                                    </form>
+                                </div><!-- /.subscribe -->
+                            </div><!-- /.footer-section-body -->
+                        </div><!-- /.footer-section -->
+                    </div><!-- /.columns large-3 medium-12 -->
+
+                    <div class="col-md-3">
+                        <div class="footer-section">
+                            <h4 class="footer-section-title">Contact Us</h4><!-- /.footer-section-title -->
+
+                            <div class="footer-section-body">
+                                <p><b>Address:</b> Telkom University, Bandung</p>
+
+                                <div class="footer-contacts">
+                                    <p>
+                                        <b>
+                                            <i class="fa fa-phone"></i> Phone:
+                                        </b>
+
+                                        +628-126-666-001
+                                    </p>
+
+                                    <p>
+                                        <b>
+                                            <i class="fa fa-envelope-o"></i> Email:
+                                        </b>
+
+                                        info@newhope.com
+                                    </p>
+                                </div><!-- /.footer-contacts -->
+                            </div><!-- /.footer-section-body -->
+                        </div><!-- /.footer-section -->
+                    </div><!-- /.columns large-3 medium-12 -->
+                </div><!-- /.row -->
+            </div>
+        </div><!-- /.footer-body -->
+
+        <div class="bwt-footer-copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 copyright">
+                        <div class="left-text">Copyright &copy; New Hope 2017. All Rights Reserved</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/bootstrap.js"></script>
+    <script src="../assets/js/bootsnav.js"></script>
+    <script src="../assets/js/banner.js"></script>
+    <script src="../assets/js/owl.carousel.js"></script>
+    <script>
+        $(document).ready(function () {
+
+            $("#owl-demo").owlCarousel({
+
+                autoPlay: 5000, //Set AutoPlay to 3 seconds
+                navigation: true,
+                navigationText: ["", ""],
+                items: 4,
+                itemsDesktop: [1199, 3],
+                itemsDesktopSmall: [979, 3]
+
+            });
+
+        });
+    </script>
+    <script src="../assets/js/script.js"></script>
 </body>
 
 </html>

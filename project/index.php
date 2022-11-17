@@ -33,7 +33,7 @@
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
 						<i class="fa fa-bars"></i>
 					</button>
-					<a class="navbar-brand logo" href="../assets/index.html"><img src="images/logo.png"
+					<a class="navbar-brand logo" href="../assets/index.html"><img src="../assets/images/logo.png"
 							class="img-responsive" /></a>
 				</div>
 				<div class="collapse navbar-collapse" id="navbar-menu">
@@ -68,7 +68,7 @@
 			<div class="row text-center" style="margin-top:-30px;">
 
 				<div class="col-sm-6 col-md-4 clearfix top-off">
-					<div class="grid-image"><img src="images/test1.jpg"></div>
+					<div class="grid-image"><img src="../assets/images/test1.jpg"></div>
 					<div class="post-content">
 						<h3>Nepal Earthquake: Clean Water Initiative</h3>
 						<hr>
@@ -79,7 +79,7 @@
 
 				</div>
 				<div class="col-sm-6 col-md-4 clearfix top-off">
-					<div class="grid-image"><img src="images/test1.jpg"></div>
+					<div class="grid-image"><img src="../assets/images/test1.jpg"></div>
 					<div class="post-content">
 						<h3>Nepal Earthquake: Clean Water Initiative</h3>
 						<hr>
@@ -90,7 +90,7 @@
 				</div>
 
 				<div class="col-sm-6 col-md-4 clearfix top-off">
-					<div class="grid-image"><img src="images/test1.jpg"></div>
+					<div class="grid-image"><img src="../assets/images/test1.jpg"></div>
 					<div class="post-content">
 						<h3>Nepal Earthquake: Clean Water Initiative</h3>
 						<hr>
@@ -101,7 +101,7 @@
 				</div>
 
 				<div class="col-sm-6 col-md-4 clearfix top-off">
-					<div class="grid-image"><img src="images/test1.jpg"></div>
+					<div class="grid-image"><img src="../assets/images/test1.jpg"></div>
 					<div class="post-content">
 						<h3>Nepal Earthquake: Clean Water Initiative</h3>
 						<hr>
@@ -112,7 +112,7 @@
 				</div>
 
 				<div class="col-sm-6 col-md-4 clearfix top-off">
-					<div class="grid-image"><img src="images/test1.jpg"></div>
+					<div class="grid-image"><img src="../assets/images/test1.jpg"></div>
 					<div class="post-content">
 						<h3>Nepal Earthquake: Clean Water Initiative</h3>
 						<hr>
@@ -123,7 +123,7 @@
 				</div>
 
 				<div class="col-sm-6 col-md-4 clearfix top-off">
-					<div class="grid-image"><img src="images/test1.jpg"></div>
+					<div class="grid-image"><img src="../assets/images/test1.jpg"></div>
 					<div class="post-content">
 						<h3>Nepal Earthquake: Clean Water Initiative</h3>
 						<hr>
@@ -134,7 +134,7 @@
 				</div>
 
 				<div class="col-sm-6 col-md-4 clearfix top-off">
-					<div class="grid-image"><img src="images/test1.jpg"></div>
+					<div class="grid-image"><img src="../assets/images/test1.jpg"></div>
 					<div class="post-content">
 						<h3>Nepal Earthquake: Clean Water Initiative</h3>
 						<hr>
@@ -145,7 +145,7 @@
 				</div>
 
 				<div class="col-sm-6 col-md-4 clearfix top-off">
-					<div class="grid-image"><img src="images/test1.jpg"></div>
+					<div class="grid-image"><img src="../assets/images/test1.jpg"></div>
 					<div class="post-content">
 						<h3>Nepal Earthquake: Clean Water Initiative</h3>
 						<hr>
@@ -156,7 +156,7 @@
 				</div>
 
 				<div class="col-sm-6 col-md-4 clearfix top-off">
-					<div class="grid-image"><img src="images/test1.jpg"></div>
+					<div class="grid-image"><img src="../assets/images/test1.jpg"></div>
 					<div class="post-content">
 						<h3>Nepal Earthquake: Clean Water Initiative</h3>
 						<hr>
@@ -306,11 +306,11 @@
 		</div>
 	</footer>
 
-	<script type="text/javascript" src="js/jquery.min.js"></script>
-	<script src="js/bootstrap.js"></script>
-	<script src="js/bootsnav.js"></script>
-	<script src="js/banner.js"></script>
-	<script src="js/script.js"></script>
+	<script type="text/javascript" src="../assets/js/jquery.min.js"></script>
+	<script src="../assets/js/bootstrap.js"></script>
+	<script src="../assets/js/bootsnav.js"></script>
+	<script src="../assets/js/banner.js"></script>
+	<script src="../assets/js/script.js"></script>
 </body>
 
 </html>
