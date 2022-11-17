@@ -158,27 +158,19 @@
 
 							<div class="footer-section-body">
 								<ul class="list-links">
-									<li>
-										<a href="../assets/index.html">Home</a>
+								<li>
+										<a href="http://localhost">Home</a>
 									</li>
 
 									<li>
-										<a href="../assets/about-us.html">About Us</a>
+										<a href="http://localhost/about">About Us</a>
 									</li>
 
 									<li>
-										<a href="../assets/activities.html">Activities</a>
+										<a href="http://localhost/contact">Contact Us</a>
 									</li>
 									<li>
-										<a href="../assets/projects.html">Projects</a>
-									</li>
-
-									<li>
-										<a href="../assets/gallery.html">Gallery</a>
-									</li>
-
-									<li>
-										<a href="../assets/contact.html">Contact Us</a>
+										<a href="http://localhost/project">Projects</a>
 									</li>
 
 								</ul><!-- /.list-links -->
