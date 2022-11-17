@@ -168,9 +168,9 @@
 
 				<div class="member col-xs-6 col-md-3">
 					<div class="inner">
-						<div class="avatar-inner"><img src="../assets/images/team3.jpg"></div>
+						<div class="avatar-inner"><img src="../assets/images/yoga.jpg"></div>
 						<div class="info">
-							<div class="name"><a href="../assets/#"> Ida Bagus Peling </a></div>
+							<div class="name"><a href="../assets/#"> Ida Bagus Peling Prayoga </a></div>
 							<div class="regency">Staff</div>
 						</div>
 					</div>
