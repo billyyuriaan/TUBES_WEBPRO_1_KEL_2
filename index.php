@@ -34,7 +34,13 @@
 			<div class="row">
 				<div class="attr-nav">
 					<a class="donation" href="http://localhost/donate">donate now</a>
-					<a class="login" href="http://localhost/login">login</a>
+					<?php 
+					if(isset($_SESSION['name'])){
+						echo '<a class="login" href="http://localhost/auth/logout.php">logout</a>';
+					}else{
+						echo '<a class="login" href="http://localhost/login">login</a>';
+					}
+					?>
 				</div>
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
@@ -49,13 +55,12 @@
 						<li><a href="http://localhost/about">About Us</a></li>
 						<li><a href="http://localhost/project">Projects</a></li>
 						<li><a href="http://localhost/contact">Contact Us</a></li>
-            <?php 
-            if(isset($_SESSION['username'])){
-              echo '<li><a href="http://localhost/history">History</a></li>';
-            }
-            
-            ?>
-            
+						<?php 
+						if(isset($_SESSION['name'])){
+						echo '<li><a href="http://localhost/history">History</a></li>';
+						}
+						
+						?>
 					</ul>
 				</div>
 			</div>

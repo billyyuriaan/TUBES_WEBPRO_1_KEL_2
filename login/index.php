@@ -34,13 +34,19 @@ session_start();
 			<div class="row">
 				<div class="attr-nav">
 					<a class="donation" href="http://localhost/donate">donate now</a>
-					<a class="login" href="http://localhost/login">login</a>
+					<?php 
+					if(isset($_SESSION['name'])){
+						echo '<a class="login" href="http://localhost/auth/logout.php">logout</a>';
+					}else{
+						echo '<a class="login" href="http://localhost/login">login</a>';
+					}
+					?>
 				</div>
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
 						<i class="fa fa-bars"></i>
 					</button>
-					<a class="navbar-brand logo" href="http://localhost"><img src="../assets/images/logo.png"
+					<a class="navbar-brand logo" href="http://localhost"><img src="./assets/images/logo.png"
 							class="img-responsive" /></a>
 				</div>
 				<div class="collapse navbar-collapse" id="navbar-menu">
@@ -49,11 +55,12 @@ session_start();
 						<li><a href="http://localhost/about">About Us</a></li>
 						<li><a href="http://localhost/project">Projects</a></li>
 						<li><a href="http://localhost/contact">Contact Us</a></li>
-                        <?php 
-                        if(isset($_SESSION['username'])){
-                            echo '<li><a href="http://localhost/history">History</a></li>';
-                        }            
-                        ?>
+						<?php 
+						if(isset($_SESSION['name'])){
+						echo '<li><a href="http://localhost/history">History</a></li>';
+						}
+						
+						?>
 					</ul>
 				</div>
 			</div>
@@ -79,18 +86,18 @@ session_start();
         <div class="container">
             <div class="row justify-content-center text-center">
             <div class="col">
-            <form>
+            <form method="POST" action="http://localhost/auth/login.php">
           <!-- Email input -->
           <div class="form-outline mb-4">
-          <label class="form-label" for="form3Example3">Email address</label>
-            <input type="email" id="form3Example3" class="form-control form-control-lg"
+          <label class="form-label" for="email">Email address</label>
+            <input type="email" id="email" name="email" class="form-control form-control-lg"
               placeholder="Enter a valid email address" />
           </div>
 
           <!-- Password input -->
           <div class="form-outline mb-3">
-          <label class="form-label" for="form3Example4">Password</label>
-            <input type="password" id="form3Example4" class="form-control form-control-lg"
+          <label class="form-label" for="password">Password</label>
+            <input type="password" id="password" name="password" class="form-control form-control-lg"
               placeholder="Enter password" />
           </div>
 
@@ -106,7 +113,7 @@ session_start();
           </div>
 
           <div class="text-center text-lg-start mt-4 pt-2">
-            <button type="button" class="btn btn-primary btn-lg"
+            <button type="submit" class="btn btn-primary btn-lg"
               style="padding-left: 2.5rem; padding-right: 2.5rem;">Login</button>
             <p class="small fw-bold mt-2 pt-1 mb-0">Don't have an account? <a href="#!"
                 class="link-danger">Register</a></p>

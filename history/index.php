@@ -3,7 +3,7 @@ include "../function/loginable.php";
 
 $controller = new Functions();
 
-// $controller->checkLogin();
+$controller->checkLogin();
 
 ?>
 
@@ -38,36 +38,43 @@ $controller = new Functions();
 </head>
 
 <body>
-    <nav class="navbar navbar-default navbar-sticky bootsnav">
-        <div class="container">
-            <div class="row">
-                <div class="attr-nav">
-                    <a class="donation" href="http://localhost/donate">donate now</a>
-                    <a class="login" href="http://localhost/login">login</a>
-                </div>
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
-                        <i class="fa fa-bars"></i>
-                    </button>
-                    <a class="navbar-brand logo" href="http://localhost"><img src="../assets/images/logo.png"
-                            class="img-responsive" /></a>
-                </div>
-                <div class="collapse navbar-collapse" id="navbar-menu">
-                    <ul class="nav navbar-nav navbar-left" data-in="fadeInDown" data-out="fadeOutUp">
-                        <li><a href="http://localhost">Home</a></li>
-                        <li><a href="http://localhost/about">About Us</a></li>
-                        <li><a href="http://localhost/project">Projects</a></li>
-                        <li><a href="http://localhost/contact">Contact Us</a></li>
-                        <?php 
-                        if(isset($_SESSION['username'])){
-                            echo '<li><a href="http://localhost/history">History</a></li>';
-                        }            
-                        ?>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </nav>
+<nav class="navbar navbar-default navbar-sticky bootsnav">
+		<div class="container">
+			<div class="row">
+				<div class="attr-nav">
+					<a class="donation" href="http://localhost/donate">donate now</a>
+					<?php 
+					if(isset($_SESSION['name'])){
+						echo '<a class="login" href="http://localhost/auth/logout.php">logout</a>';
+					}else{
+						echo '<a class="login" href="http://localhost/login">login</a>';
+					}
+					?>
+				</div>
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+						<i class="fa fa-bars"></i>
+					</button>
+					<a class="navbar-brand logo" href="http://localhost"><img src="./assets/images/logo.png"
+							class="img-responsive" /></a>
+				</div>
+				<div class="collapse navbar-collapse" id="navbar-menu">
+					<ul class="nav navbar-nav navbar-left" data-in="fadeInDown" data-out="fadeOutUp">
+						<li><a href="http://localhost">Home</a></li>
+						<li><a href="http://localhost/about">About Us</a></li>
+						<li><a href="http://localhost/project">Projects</a></li>
+						<li><a href="http://localhost/contact">Contact Us</a></li>
+						<?php 
+						if(isset($_SESSION['name'])){
+						echo '<li><a href="http://localhost/history">History</a></li>';
+						}
+						
+						?>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</nav>
 
     <section id="inner-banner">
         <div class="overlay">

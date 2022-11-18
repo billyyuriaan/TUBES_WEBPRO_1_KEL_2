@@ -4,7 +4,7 @@ class Functions{
     public function checkLogin()
     {
         session_start();
-        if (!isset($_SESSION['username'])) {
+        if (!isset($_SESSION['name'])) {
             header("Location: http://localhost/");
         }
     }
